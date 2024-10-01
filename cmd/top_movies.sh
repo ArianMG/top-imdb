@@ -1,7 +1,5 @@
-#!/bin/bash
-
 # Define base directory
-train_dir="aclImdb/train/"
+train_dir="../aclImdb/train/"
 
 # Temporary file to store ids and ratings
 ratings_file="movie_ratings.txt"

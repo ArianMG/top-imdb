@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  top-imdb:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: top-imdb-container
+    volumes:
+      - ./python:/app/python
+      - ./cmd:/app/cmd
+    tty: true
+
